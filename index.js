@@ -1,7 +1,8 @@
-// script.js
-const burgerMenu = document.getElementById('burgerMenu');
-const toogleMenu = document.getElementById('toogleMenu');
 
-burgerMenu.addEventListener('click', () => {
-    navMenu.classList.toggle('show');
+document.getElementById('burger').addEventListener('click', () => {
+    tooglemenu = document.getElementById('burger');
+});
+
+document.getElementById('burger').addEventListener('click', () => {
+   tooglemenu = document.getElementById('toogle');
 });

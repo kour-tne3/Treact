@@ -6,12 +6,11 @@
     <title>Kourtnee's Project</title>
     <link rel="stylesheet" href="./style.css" />
     <script src="https://kit.fontawesome.com/22ba7db6a4.js" crossorigin="anonymous"></script>
-  <script defer src="'.index.js"></script>
   </head>
   <body>
     <section id="landing">
-      <div class="row">
-        <nav>
+      <div>
+        <nav class="row">
           <div class="logo__title">
             <a href="#" class="img__title">
               <img class="nav__img"
@@ -21,16 +20,12 @@
               <h2 class="nav__title">Treact</h2>
             </a>
           </div>
-
-            <div class="burger-menu" id="burger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </div>
-
-          <div class="nav__links">
-            <div class="burger-menu" oneclick="toogleMenu()">
-
+          <button class="burgerMenu" id="burger">
+            <i class="fa-solid fa-bar"></i>
+            <i class="fa-solid fa-bar"></i>
+            <i  class="fa-solid fa-bar"></i>
+          </button>
+          <div class="nav__links" id="toogle">
             <ul>
               <li><a href="#" class="nav__links">About</a></li>
               <li><a href="#" class="nav__links">Blog</a></li>
@@ -39,11 +34,16 @@
               <li><a href="#" class="nav__links">Login</a></li>
               <button class="nav__links--link">Sign Up</button>
             </ul>
-          </div>
-          </div>
-        </nav>
-      </div>
-  <script src="script.js"></script>
+             </div>
+             </nav>
+            </div>
+          
+          
+
+          
+ 
+          
+ 
       
             
       <div class="row">
@@ -60,7 +60,7 @@
           <div class="btn__wrapper">
             
             <input type="email" class="header__email--input" placeholder=" Your E-mail Address">
-            <button class="btn"><span class="white">Get Started </span></button>
+            <button class="btn" id="landing__btn"><span class="white">Get Started </span></button>
           </div>
           
             <p class="column__one--logo">OUR TRUSTED CUSTOMERS</p>
@@ -461,5 +461,6 @@
 </div>
 </section>
 </div>
+<script src="index.js"></script>
 </body>
 </html>
