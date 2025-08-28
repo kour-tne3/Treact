@@ -10,7 +10,8 @@
   
   <body>
     <section id="landing">
-        <nav class="row">
+      <div class="body__row">
+        <nav>
           <div class="logo__title">
             <a href="#" class="img__title">
               <img class="nav__img"
@@ -34,9 +35,9 @@
               <li><a href="#" class="nav__links">Login</a></li>
               <button class="nav__links--link">Sign Up</button>
             </ul>
-             </div>
-             </nav>
-             <div class="row">
+          </div>
+        </nav>
+      
              <div class="landing__wrapper">
              <div class="column__wrapper">
                <div class="column__one">
@@ -50,7 +51,7 @@
                  <div class="btn__wrapper">
                    
                    <input type="email" class="header__email--input" placeholder="Your E-mail Address">
-                   <button class="btn" id="landing__btn"><span class="white">Get Started </span></button>
+                   <button class="btn"><span class="white">Get Started </span></button>
                  </div>
                  <div class="logo__strip-wrapper">
                    <p class="column__one--logo">OUR TRUSTED CUSTOMERS</p>
@@ -66,12 +67,12 @@
                   </div>
                   </div>
                 </section>
-                <div class="row">
+                <div class="body__row">
                   <section id="features">
                     <div class="three__column--container">
                       
                         <div class="column__heading">
-                        <h5><span class="purple__heading">FEATURES</span></h5>
+                        <h5 class="features__heading">FEATURES</h5>
                         <h2 class="feature__heading">We have Amazing<span class="purple">Service.</span></h2>
                         <p class="feature__para">
                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -172,12 +173,12 @@
                       </span>
                     </section>
                     <section id="quality">
-                      <div class="quailty__column__wrapper">
+                      <div class="quality__column__wrapper">
                         <div class="left__column--one">
                           <h5 class="quality__header">QUALITY WORK </h5>
                           <h2 class="quality__heading">Designed & Developed by <span class="quality__purple">Professionals.</span></h2>
                           <p class="quality__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                          <button class="btn__wrap"> <span class="white">Learn More </span></button>
+                          <button class="btn__wrap"> <span class="quality__btn">Learn More </span></button>
                         </div>
                         <div class="right__column--img">
                           <img class="right__img" src="./assets 3/hero-screenshot-1.40a097b525c2f8c9808e.png" alt="">
@@ -190,7 +191,7 @@
                      <img class="column__img" src="./assets 3/hero-screenshot-2.241aac1fbc66db29d873.png" alt="">
                    </div>
                    <div class="steps__wrapper">
-                   <h5><span class="steps__heading">STEPS</span></h5>
+                   <h5 class="steps__heading">STEPS</h5>
                    <h2 class="steps__title"> Easy to<span class="purple">Get Started.</span></h2>
                    <ul class="steps__column">
                      <li class="numbered__steps">
@@ -235,7 +236,7 @@
                    </div>
                      <p class="feature__description"> We promise to offer you the best rate we can - at par with the industry standard.</p>
                    </div>
-                   <div class="horizontal__feature">
+                   <div class="horizontal__feature2">
             <div class="feature__icon--container">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-briefcase">
                 <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
@@ -256,9 +257,9 @@
           <section id="pricing">
         <div class="pricing__wrapper">
             <div class="pricing__header">
-        <h6 class="pricing__purple">PRICING</h6>
+        <h6 class="pricing__header">PRICING</h6>
         <h2 class="pricing__heading"> Resonable & Flexible <span class="purple">Plans.</span> </h2>
-        <p class="pricing__para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae laudantium aliquam consequuntur iusto nostrum deleniti?</p>
+        <p class="pricing__para">Lorem ipsum dolor consectetur, adipisicing elit. Repudiandae laudantium aliquam consequuntur nostrum deleniti?</p>
       </div>
             
           <div class="container__pricing">
@@ -266,21 +267,21 @@
               <div class="plan__highlight"></div>
               <div class="plan__1 individual__plan">
                 <div class="three__plans--header">
-            <h4 class="name"> Personal</h4>
-            <div class="price">$17.99</div>
-            <h5 class="duration">MONTHLY</h5>
+            <h4 class="name1"> Personal</h4>
+            <div class="price1">$17.99</div>
+            <h5 class="duration1">MONTHLY</h5>
           </div>
-          <hr class="hr"></hr>
+          <!-- <hr class="hr"></hr> -->
           <div class="plan__features"> 
             <h6 class="main__feature">For Individuals</h6>
-            <h6 class="feature">30 Templates</h6>
-            <h6 class="feature">7 Landing Pages</h6>
-            <h6 class="feature">12 Internal Pages</h6>
-            <h6 class="feature">Basic Assistance</h6>
+            <h6 class="feature1">30 Templates</h6>
+            <h6 class="feature1">7 Landing Pages</h6>
+            <h6 class="feature1">12 Internal Pages</h6>
+            <h6 class="feature1">Basic Assistance</h6>
           </div>
-          <hr class="hr"></hr>
+          <!-- <hr class="hr"></hr> -->
           <div class="plan__action">
-           <button class="plan__button1"> <h6>BUY NOW</h6></button>
+           <button class="plan__button1"> <h6 class="plan__action--btn">BUY NOW</h6></button>
           </div>
         </div>
         <div class="plan__2 individual__plan">
@@ -289,7 +290,7 @@
         <div class="price"> <span class="white">$37.99 </span></div>
         <h5 class="duration"> <span class="white">MONTHLY</span></h5>
           </div>
-          <hr class="hr"></hr>
+          <!-- <hr class="hr"></hr> -->
         <div class="plan__features">
           <h6 class="main__feature2">For Small Businesses</h6>
           <h6 class="feature"> <span class="white">60 Templates</span></h6>
@@ -297,29 +298,29 @@
           <h6 class="feature"> <span class="white">22 Internal Pages</span></h6>
           <h6 class="feature"> <span class="white">Priority Assistance</span></h6>
         </div>
-        <hr class="hr"></hr>
+        <!-- <hr class="hr"></hr> -->
         <div class="plan__action">
-         <button class="plan__button2"> <h6 class="white2">BUY NOW</h6> </button>
+         <button class="plan__button2"> <h6 class="plan__action--btn2">BUY NOW</h6> </button>
         </div>
       </div>
       <div class="plan__highlight2"></div>
       <div class="plan__3 individual__plan">
       <div class="three__plans--header">
-        <h4 class="name">ENTERPRISE</h4>
+        <h4 class="name1">ENTERPRISE</h4>
         <div class="price">$57.99</div>
-        <h5 class="duration">MONTHLY</h5>
+        <h5 class="duration1">MONTHLY</h5>
       </div>
-      <hr class="hr"></hr>
+      <!-- <hr class="hr"></hr> -->
         <div class="plan__features">
           <h6 class="main__feature">For Large Companies</h6>
-          <h6 class="feature">90 Templates</h6>
-          <h6 class="feature">27 Landing Pages</h6>
-          <h6 class="feature"> 37 Internal Pages</h6>
-          <h6 class="feature">Personal Assistance</h6>
+          <h6 class="feature1">90 Templates</h6>
+          <h6 class="feature1">27 Landing Pages</h6>
+          <h6 class="feature1"> 37 Internal Pages</h6>
+          <h6 class="feature1">Personal Assistance</h6>
         </div>
-        <hr class="hr"></hr>
+        <!-- <hr class="hr"></hr> -->
       <div class="plan__action">
-         <button class="plan__button3"> <h6>BUY NOW</h6> </button>
+         <button class="plan__button3"> <h6 class="plan__action--btn">BUY NOW</h6> </button>
         </div>
       </div>
       </div>
@@ -327,10 +328,11 @@
     </section>
 
     <div class="footer__background">
-    <section id="footer links">
+    <section id="footer-links">
         <div class="five__columns">
         <div class="five__column">
         <h5 class="column__head">MAIN</h5>
+        <div class="link__list">
         <a href="Blog">
         <h6 class="column__link">Blog</h6></a>
         <a href="FAQs">
@@ -340,8 +342,10 @@
         <a href="About Us">
         <h6 class="column__link">About Us</h6></a>
       </div>
+        </div>
       <div class="five__column">
       <h5 class="column__head">PRODUCT</h5>
+      <div class="link__list">
       <a href="Log In">
       <h6 class="column__link">Log In</h6></a>
       <a href="Personal">
@@ -351,8 +355,10 @@
       <a href="Team">
       <h6 class="column__link">Team</h6></a>
       </div>
+      </div>
       <div class="five__column">
       <h5 class="column__head">PRESS</h5>
+      <div class="link__list">
       <a href="Logos">
       <h6 class="column__link">Logos</h6></a>
       <a href="Events">
@@ -362,8 +368,10 @@
       <a href="Office">
       <h6 class="column__link">Office</h6></a>
       </div>
+      </div>
       <div class="five__column">
       <h5 class="column__head">TEAM</h5>
+      <div class="link__list">
     <a href="Career">
       <h6 class="column__link">Career</h6></a>
     <a href="Founders">
@@ -373,8 +381,10 @@
     <a href="Onboadring">
       <h6 class="column__link">Onboarding</h6></a>
       </div>
+      </div>
       <div class="five__column">
       <h5 class="column__head">LEGAL</h5>
+      <div class="link__list">
     <a href="GDPR">
       <h6 class="column__link">GDPR</h6></a>
     <a href="Privacy Policy">
@@ -383,6 +393,7 @@
         <h6 class="column__link">Terms of Service</h6></a>
     <a href="Disclaimer">
       <h6 class="column__link">Disclaimer</h6></a>
+      </div>
       </div>
     </section>
     <section id="footer">
